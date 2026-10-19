@@ -8,7 +8,7 @@ yValueList =[0]
 
 # Write excel file to Json
 def excel_to_json(): 
-    df = pd.read_excel("C:\\Python_Code\\Python_Code\\ExportExcelToJson\\SolarPanelDataPerDay_2023.xlsx")
+    df = pd.read_excel("C:\\Python_Code\\Python_Code\\ExportExcelToJson\\SolarPanelDataPerDay.xlsx")
     df.to_json("C:\\Python_Code\\Python_Code\\ExportExcelToJson\\data_zonnepanelen.json", orient="records", indent=4)
     print(df)
 
