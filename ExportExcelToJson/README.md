@@ -5,7 +5,7 @@ Importeer pandas en json
 Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om in een Json-bestand met de naam data_zonnepanelen.json
 
 **Stap 2**
-Maak een CLASS aan met de naam meetdata welke bestaat uit de volgende attributen:
+- Maak een CLASS aan met de naam meetdata welke bestaat uit de volgende attributen:
 -   datum
 -   productiecumm
 -   productieDag
