@@ -1,8 +1,8 @@
 # Opdracht om Excel bestand met waarden van zonnepanlen te verwerken
 
 **Stap 1**
-Importeer pandas en json
-Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om in een Json-bestand met de naam data_zonnepanelen.json
+- Importeer pandas en json
+- Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om in een Json-bestand met de naam "data_zonnepanelen.json"
 
 **Stap 2**
 - Maak een CLASS aan met de naam meetdata welke bestaat uit de volgende attributen:
@@ -12,19 +12,19 @@ Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om
     -   strDatum
 
 **Stap 3**
-Importeer het zojuist gemaakte Json-bestand in een interne data variabele
+- Importeer het zojuist gemaakte Json-bestand in een interne data variabele
 
 **Stap 4**
-Verwerk de interne data variabele door de waarden om te zetten naar de meetdata class.
-Voeg het attribuut strDatum toe aan een xValueList
-Voeg het attribuur ProductieCumm toe aan een yValueList
+- Verwerk de interne data variabele door de waarden om te zetten naar de meetdata class.
+- Voeg het attribuut strDatum toe aan een xValueList
+- Voeg het attribuur ProductieCumm toe aan een yValueList
 
 **Stap 5**
-Importeer matplotlib
-Maak een grafiek van de zojuist aangemaakte xValueList en yValueList
-Maak een label voor de x- en y-as ("Datum", "Produktie in KWh")
-Door de grote aantal waarden in de xValueList worden de x-labels niet goed getoond.
-Zorg ervoor dat er om de 365 dagen een x-label getoond wordt.
-Geef de grafiek de titel "Cumulatieve produktie zonnepanelen"
-Geef in de sub-titel aan over welke periode de gegevens getoond worden:
+- Importeer matplotlib
+- Maak een grafiek van de zojuist aangemaakte xValueList en yValueList
+- Maak een label voor de x- en y-as ("Datum", "Produktie in KWh")
+- Door de grote aantal waarden in de xValueList worden de x-labels niet goed getoond.
+- Zorg ervoor dat er om de 365 dagen een x-label getoond wordt.
+- Geef de grafiek de titel "Cumulatieve produktie zonnepanelen"
+- Geef in de sub-titel aan over welke periode de gegevens getoond worden:
     "Periode van " + xValueList[0] + " tot en met " + xValueList[xxx]
