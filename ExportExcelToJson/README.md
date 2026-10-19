@@ -1,25 +1,25 @@
 # Opdracht om Excel bestand met waarden van zonnepanlen te verwerken
 
-Stap 1
+**Stap 1**
 Importeer pandas en json
 Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om in een Json-bestand met de naam data_zonnepanelen.json
 
-Stap 2
+**Stap 2**
 Maak een CLASS aan met de naam meetdata welke bestaat uit de volgende attributen:
-    datum
-    productiecumm
-    productieDag
-    strDatum
+-   datum
+-   productiecumm
+-   productieDag
+-   strDatum
 
-Stap 3
+**Stap 3**
 Importeer het zojuist gemaakte Json-bestand in een interne data variabele
 
-Stap 4
+**Stap 4**
 Verwerk de interne data variabele door de waarden om te zetten naar de meetdata class.
 Voeg het attribuut strDatum toe aan een xValueList
 Voeg het attribuur ProductieCumm toe aan een yValueList
 
-Stap 5
+**Stap 5**
 Importeer matplotlib
 Maak een grafiek van de zojuist aangemaakte xValueList en yValueList
 Maak een label voor de x- en y-as ("Datum", "Produktie in KWh")
