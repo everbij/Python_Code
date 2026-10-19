@@ -12,7 +12,7 @@
     -   strDatum
 
 **Stap 3**
-- Importeer het zojuist gemaakte Json-bestand in een interne data variabele
+- Importeer het zojuist gemaakte Json-bestand in een interne 'data' variabele
 
 **Stap 4**
 - Verwerk de interne data variabele door de waarden om te zetten naar de meetdata class.
