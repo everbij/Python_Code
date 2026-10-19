@@ -27,4 +27,4 @@
 - Zorg ervoor dat er om de 365 dagen een x-label getoond wordt.
 - Geef de grafiek de titel `Cumulatieve produktie zonnepanelen`
 - Geef in de sub-titel aan over welke periode de gegevens getoond worden:
-    `Periode van ` + xValueList[0] + ` tot en met ` + xValueList[xxx]
+  -  `Periode van ` + xValueList[0] + ` tot en met ` + xValueList[xxx]
