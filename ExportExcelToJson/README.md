@@ -6,10 +6,10 @@ Lees het meegeleverde Excel bestand (SolarPanelDataPerDay.xlsx) in en zet dit om
 
 **Stap 2**
 - Maak een CLASS aan met de naam meetdata welke bestaat uit de volgende attributen:
---   datum
---   productiecumm
---   productieDag
---   strDatum
+    -   datum
+    -   productiecumm
+    -   productieDag
+    -   strDatum
 
 **Stap 3**
 Importeer het zojuist gemaakte Json-bestand in een interne data variabele
