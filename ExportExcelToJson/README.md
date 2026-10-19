@@ -1,8 +1,8 @@
 # Opdracht om Excel bestand met waarden van zonnepanelen te verwerken
 
-Bij deze opdracht worden de Excel gegevens omgezet naar een Json bestand.
-Vervolgens wordt het Json bestand in een loop omgezet tot instanties van de klasse meetdata.
-Daarna worden de attributen strDatum en productieCumm van de meetdata overgezet naar x- en y waarden om een grafiek te maken.
+Bij deze opdracht worden de Excel gegevens omgezet naar een Json bestand.  
+Vervolgens wordt het Json bestand in een loop omgezet tot instanties van de klasse meetdata.  
+Daarna worden de attributen strDatum en productieCumm van de meetdata overgezet naar x- en y waarden om een grafiek te maken.  
 Als laatste moet de grafiek nog vorm gegeven worden.
 
 **Stap 1**
