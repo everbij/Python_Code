@@ -30,12 +30,19 @@ def greater_or_smaller(a, b):
         return False
 
 def return_values():
-    x = random.randint()
+    x = random.randint(1,20)
     return x
 
+def count_char(t, chrs):
+    chr = chrs
+    print(chr)
+    return chr.count(t)
+
+
 if __name__ == "__main__":
-    print("Fahrenheit to Celsius")
-    print("35 graden Fahrenheit is " + str(fahrenheit2celsius(tempFahrenheit)) + " graden Celsius.")
-    print()
-    print(greater_or_smaller(3,5))
-    print(greater_or_smaller(7,2))
+    count_char("t")
+    # print("Fahrenheit to Celsius")
+    # print("35 graden Fahrenheit is " + str(fahrenheit2celsius(tempFahrenheit)) + " graden Celsius.")
+    # print()
+    # print(greater_or_smaller(3,5))
+    # print(greater_or_smaller(7,2))
